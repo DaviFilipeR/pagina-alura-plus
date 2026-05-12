@@ -11,7 +11,7 @@ body {
     background-color: var(--cor-de-fundo);
     color: var(--branco-principal);
     font-family: var(--fonte-principal);
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 400;
 }
 
@@ -39,7 +39,7 @@ body {
 }
 
 .container__titulo {
-    font-size: 28px;
+    font-size: 1.75rem;
     font-weight: 700;
 }
 
@@ -63,7 +63,7 @@ body {
 }
 
 .container__aviso {
-    font-size: 12px;
+    font-size: 0.75rem;
     color: var(--cinza-secundário);
 }
 
@@ -78,7 +78,7 @@ body {
 
 .descricao__titulo {
     font-weight: 700;
-    font-size: 48px;
+    font-size: 3rem;
     color: var(--branco-principal);
     margin-bottom: 0.1em;
 }
@@ -108,12 +108,12 @@ body {
 }
 
 .dispositivos__titulo {
-    font-size: 48px;
+    font-size: 3rem;
     color: var(--branco-principal);
 }
 
 .lista__item {
-    font-size: 32px;
+    font-size: 2rem;
     color: var(--branco-principal);
 }
 
@@ -137,7 +137,7 @@ body {
 
 .rodape__texto {
     color: var(--cinza-secundário);
-    font-size: 14px;
+    font-size: 0.875rem;
     margin: 1em 0;
 }
 
@@ -149,3 +149,39 @@ body {
     background-color: var(--botao-azul-efeito);
     color: var(--cor-de-fundo)
 }
+
+@media (max-width: 1200px) {
+    .container {
+        flex-direction: column-reverse;
+        grid-template-columns: 100%;
+        align-items: center;
+        padding: 0;
+        margin: 0 2em;
+    }
+
+    .container__imagem {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .principal {
+        background-size: 70%;
+    }
+
+    .secundario__imagem {
+        width: 100%;
+    }
+
+    .dispositivos__lista {
+        flex-direction: column;
+    }
+
+     .rodape__lista {
+        flex-direction: column;
+    }
+
+    .lista__link a {
+        margin: 1em 0;
+    }
+}
+    
