@@ -1,0 +1,2 @@
+<h1 align = "center"> Alura Plus</h1>
+<p>O Alura Plus é um projeto desenvolvido durante um curso de prática de HTML e CSS da Alura. Nele, foi criada uma página para divulgar o combo de assinaturas Alura+ e Alura Língua, apresentando seus benefícios e recursos. O projeto permitiu a aplicação de conceitos de estruturação com HTML e estilização com CSS, contribuindo para o desenvolvimento das habilidades em criação de páginas web.</p>
